@@ -37,7 +37,9 @@ def over?(board)
   won?(board) || draw?(board)
 end
 
-def winner
-  # if (board[win_combo[0]] == "X" && board[win_combo[1]] == "X" && board[win_combo[2]] == "X")
-  #   puts
+def winner(board)
+  if won?(board)[0, 1, 2] == ["X", "X", "X"]
+    puts "X"
+  elsif won?(board)[0, 1, 2] == ["O", "O", "O"]
+    puts "O"
 end
