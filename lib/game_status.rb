@@ -38,8 +38,6 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
-  # binding.pry
   if (board[won?(board)[0]] == "X" && board[won?(board)[1]] == "X" && board[won?(board)[2]] == "X")
     puts "X"
   elsif (board[won?(board)[0]] == "O" && board[won?(board)[1]] == "O" && board[won?(board)[2]] == "O")
