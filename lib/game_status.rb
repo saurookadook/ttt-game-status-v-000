@@ -38,10 +38,9 @@ def over?(board)
 end
 
 def winner(board)
-  binding.pry
-  if won?(board)
+  won?(board)
+  binding.pry 
+  if 
     puts "X"
-  elsif won?(board)
-    puts "O"
   end
 end
