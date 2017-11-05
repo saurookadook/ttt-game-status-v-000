@@ -38,6 +38,7 @@ def over?(board)
 end
 
 def winner
-  if (board[win_combo[0]] == board[win_combo[1]] == board[win_combo[2]] == "X")
-    puts "X"
+  # if (board[win_combo[0]] == board[win_combo[1]] == board[win_combo[2]] == "X")
+  #   puts "X"
+  # else (board)
 end
