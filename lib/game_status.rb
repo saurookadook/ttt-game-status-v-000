@@ -42,4 +42,5 @@ def winner(board)
     puts "X"
   elsif won?(board)[0, 1, 2] == ["O", "O", "O"]
     puts "O"
+  end
 end
