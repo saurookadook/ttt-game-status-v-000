@@ -39,5 +39,5 @@ end
 
 def winner(board)
   binding.pry
-  board[won?(board)]
+  board[won?(board)[0, 1, 2]]
 end
