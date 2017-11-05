@@ -38,9 +38,9 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == ["X", "X", "X"]
+  if won?(board)[0, 1, 2] == ["X", "X", "X"]
     puts "X"
-  elsif won?(board) == ["O", "O", "O"]
+  elsif won?(board)[0, 1, 2] == ["O", "O", "O"]
     puts "O"
   end
 end
