@@ -39,5 +39,5 @@ end
 
 def winner
   # if (board[win_combo[0]] == "X" && board[win_combo[1]] == "X" && board[win_combo[2]] == "X")
-  #   puts 
+  #   puts
 end
