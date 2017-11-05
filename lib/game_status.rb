@@ -40,7 +40,6 @@ end
 def winner(board)
   binding.pry
   if won?(board)
-    position_taken?(boad, won?(board)[0])
     puts "X"
   elsif won?(board)
     puts "O"
