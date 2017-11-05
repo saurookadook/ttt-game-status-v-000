@@ -39,9 +39,9 @@ end
 
 def winner(board)
   binding.pry
-  if won?(board)
-    puts "X"
-  elsif won?(board)
+  if board[won?(board)[0]] == "X"
+     puts "X"
+  elsif board[won?(board)[0]] == "O"
     puts "O"
   end
 end
