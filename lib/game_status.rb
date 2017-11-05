@@ -39,8 +39,8 @@ end
 
 def winner(board)
   won?(board)
-  binding.pry 
-  if 
+  binding.pry
+  if
     puts "X"
   end
 end
